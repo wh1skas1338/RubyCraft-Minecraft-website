@@ -1,0 +1,263 @@
+
+.container  {
+    margin: 0px 166px;
+}
+
+html    {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0), rgb(17, 17, 17)),
+        url(images/background.jpg);
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-position: top;  
+}
+
+body {
+    margin: 0;
+    background-color: rgb(17, 17, 17);
+}           
+
+.header-line {
+    padding-top: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.nav-item {
+    color: #ffffffc6;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 23px;
+    margin-right: 90px;
+    font-family: 'Open Sans';
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap);
+}
+
+@font-face {
+    font-family: "Sans";
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+}
+
+.header-p {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 672px;
+    height: 126px;
+    flex-shrink: 0;
+}
+
+.header-logo {
+    margin-right: 90px; 
+}
+
+.header-c {
+    width: 800px;
+    height: 1px;
+    color: #FFF;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.axolotl {
+    transform: translateX(992px);
+    position: relative;
+    top: -1000px;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.button-play {
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    padding: 10px;
+    width: 280px;
+    height: 80px;
+    background-color: #ffffff00;
+    left: 350px;
+    position: relative;
+    top: -370px;
+    cursor: pointer; 
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.button-play:hover {
+    border-radius: 20px;
+    border: 1px solid #d3d3d3d3;
+    padding: 10px;
+    width: 280px;
+    height: 80px;
+    background-color: #ffffff00;
+    left: 350px;
+    position: relative;
+    top: -370px;
+    cursor: pointer; 
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: bold;
+    color: #d3d3d3d3;
+}
+
+.button-play:active {
+    top: -368px;
+  }
+
+.body {
+    background-color: rgb(20, 20, 20);
+}
+
+.box  {
+    margin-top: 300px;
+}
+
+.about-tps {
+    color: #FFF;
+    font-family: "Open Sans";
+    position: relative;
+    font-size: 20px;
+}
+
+.about-us   {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans";
+    font-size: 35px;
+}
+
+.about {
+    position: relative;
+    top: -450px;
+}
+
+.about-tps h5 {
+    color: #ffffffa4;
+    font-family: "Open Sans";
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    position: absolute;
+    top: 18px;
+    font-size: 20px;
+}
+
+.u1F6E0 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -20px;
+}
+
+.u1F6E0 h2 {
+    margin-left: 15px;
+}
+
+.instrument {
+    width: 30px;
+    height: 30px;
+}
+
+.about-game {
+    color: #FFF;
+    font-family: "Open Sans";
+    position: relative;
+    font-size: 20px;
+    margin-top: -543px;
+    margin-left: 840px;
+}
+
+.about-game h5 {
+    color: #ffffffa4;
+    font-family: "Open Sans";
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    top: -73px;
+    font-size: 20px;
+    position: relative;
+}
+
+.u1F3AE {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -20px;
+}
+
+.u1F3AE h2 {
+    margin-left: 15px;
+}
+
+.gamepad {
+    width: 34px;
+    height: 34px;
+}
+
+.about-admin {
+    color: #FFF;
+    font-family: "Open Sans";
+    position: relative;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.u1F468_u1F4BB {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -20px;
+}
+
+.about-admin h5 {
+    color: #ffffffa4;
+    font-family: "Open Sans";
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    top: -73px;
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.macbook {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    bottom: 170px;
+    left: 490px;
+}
+
+.about-admin h2 {
+    position: absolute;
+    bottom: 140px;
+    left: 537px;
+    white-space: nowrap;
+}
